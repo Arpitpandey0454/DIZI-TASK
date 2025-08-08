@@ -13,7 +13,7 @@
   .container {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Center image vertically with content */
+    align-items: center; 
     gap: 40px;
     flex-wrap: wrap;
   }
@@ -99,13 +99,13 @@ button:focus
   .image-section {
     flex: 1;
     display: flex;
-    justify-content: flex-start; /* keep it closer to text */
-    align-items: flex-start; /* align top with class section */
-    margin-top: 30px; /* pull image closer to the text */
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    margin-top: 30px; 
   }
   
   .image-section img {
-    max-height: 350px; /* smaller image */
+    max-height: 350px; 
     width: auto;
     height: auto;
   }
